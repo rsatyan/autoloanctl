@@ -67,4 +67,4 @@ Options:
 
 ## License
 
-MIT © Avatar Consulting
+Apache-2.0 © Avatar Consulting
