@@ -1,0 +1,8 @@
+AGENTS.md
+PROMPT.md
+specs/
+IMPLEMENTATION_PLAN.md
+DEMO.sh
+*.log
+node_modules/
+coverage/
