@@ -1,20 +1,36 @@
 {
   "name": "autoloanctl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Auto loan underwriting and calculations - part of the LendCtl Suite",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "bin": { "autoloanctl": "./dist/index.js" },
+  "bin": {
+    "autoloanctl": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "prepublishOnly": "npm run build && npm test"
   },
-  "keywords": ["auto", "loan", "car", "vehicle", "lending", "cli", "mcp"],
+  "keywords": [
+    "auto",
+    "loan",
+    "car",
+    "vehicle",
+    "lending",
+    "cli",
+    "mcp"
+  ],
   "author": "Avatar Consulting",
   "license": "Apache-2.0",
-  "repository": { "type": "git", "url": "https://github.com/rsatyan/autoctl" },
-  "dependencies": { "commander": "^12.0.0", "chalk": "^5.3.0" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsatyan/autoloanctl.git"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@types/node": "^20.0.0",
@@ -22,5 +38,7 @@
     "ts-jest": "^29.1.0",
     "typescript": "^5.3.0"
   },
-  "engines": { "node": ">=18.0.0" }
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
