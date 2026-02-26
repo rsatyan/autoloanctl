@@ -1,6 +1,6 @@
 {
   "name": "autoloanctl",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Auto loan underwriting and calculations - part of the LendCtl Suite",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
     "cli",
     "mcp"
   ],
-  "author": "Avatar Consulting",
+  "author": "Satyan Avatara",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
