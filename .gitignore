@@ -1,8 +1,6 @@
-AGENTS.md
-PROMPT.md
-specs/
-IMPLEMENTATION_PLAN.md
-DEMO.sh
-*.log
 node_modules/
+dist/
+*.log
+.DS_Store
 coverage/
+.env

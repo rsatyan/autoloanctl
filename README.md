@@ -1,4 +1,4 @@
-# autoctl
+# autoloanctl
 
 Auto loan underwriting and calculations. Part of the **LendCtl Suite**.
 
@@ -13,7 +13,7 @@ Auto loan underwriting and calculations. Part of the **LendCtl Suite**.
 ## Installation
 
 ```bash
-npm install -g autoctl
+npm install -g autoloanctl
 ```
 
 ## Quick Start
@@ -21,24 +21,24 @@ npm install -g autoctl
 ### Calculate LTV
 
 ```bash
-autoctl ltv --loan-amount 28000 --vehicle-value 32000 --credit-score 700
+autoloanctl ltv --loan-amount 28000 --vehicle-value 32000 --credit-score 700
 ```
 
 ### Calculate Payment
 
 ```bash
-autoctl payment --amount 25000 --rate 6.5 --term 60
+autoloanctl payment --amount 25000 --rate 6.5 --term 60
 ```
 
 ### Compare Terms
 
 ```bash
-autoctl payment --amount 25000 --rate 6.5 --compare --credit-score 720
+autoloanctl payment --amount 25000 --rate 6.5 --compare --credit-score 720
 ```
 
 ## Commands
 
-### `autoctl ltv`
+### `autoloanctl ltv`
 Calculate loan-to-value ratio.
 
 Options:
@@ -47,7 +47,7 @@ Options:
 - `--credit-score <score>` - Credit score (default: 700)
 - `--condition <type>` - new|used|certified (default: used)
 
-### `autoctl payment`
+### `autoloanctl payment`
 Calculate monthly payment.
 
 Options:
